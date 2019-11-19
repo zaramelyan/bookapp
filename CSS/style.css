@@ -8980,9 +8980,17 @@ p {
   font-size: 20px;
 }
 
+p.main {
+  color: #707070;
+  font-size: 20px;
+}
+
+
+
 .leselogo {
   padding: 0px 8px 6px 20px;
   height: 80px;
+
 }
 
 .sidemenu {
