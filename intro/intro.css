@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: #F8F7EF;
+}
+
+#intro {
+   margin-top: 118px !important;
+   color: #E98074;
+}
+
+
+.logo h1 {
+    font-family: 'Barriecito', cursive;
+    font-size: 75px;
+}
+
+.tagline {
+    font-family: 'Biryani', sans-serif;
+    padding-left: 70px;
+    font-size: 25px;
+    color: #707070;
+    font-weight: 100;
+    margin-bottom: 108px;
+}
+
+.ny-bruker  {
+    padding-top: 30px;
+}
