@@ -9003,16 +9003,17 @@ p.main {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .sidemenu a {
-  padding: 60px 8px 6px 16px;
+  padding-top: 60px;
   font-size: 25px;
   color: black;
   display: block;
   text-decoration: none;
   text-align: center;
+  align-content: center;
 }
 
 .sidemenu a:hover {
