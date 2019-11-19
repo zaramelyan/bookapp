@@ -8980,12 +8980,12 @@ p {
   font-size: 20px;
 }
 
-.logo {
-  padding: 0px 8px 6px 15px;
-  height: 70px;
+.leselogo {
+  padding: 0px 8px 6px 20px;
+  height: 80px;
 }
 
-.sidenav {
+.sidemenu {
   height: 100%;
   width: 160px;
   position: fixed;
@@ -8996,16 +8996,16 @@ p {
   padding-top: 100px;
 }
 
-.sidenav a {
+.sidemenu a {
   padding: 60px 8px 6px 16px;
   font-size: 25px;
-  color:black;
+  color: black;
   display: block;
   text-decoration: none;
   text-align: center;
 }
 
-.sidenav a:hover {
+.sidemenu a:hover {
   color: #E98074;
 }
 
