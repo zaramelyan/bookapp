@@ -15,8 +15,33 @@ p {
   font-size: 20px;
 }
 
-.menu {
-  background-color: #707070;
+.logo {
+  padding: 0px 8px 6px 15px;
+  height: 70px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.sidenav a {
+  padding: 60px 8px 6px 16px;
+  font-size: 25px;
+  color:black;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #E98074;
 }
 
 .bok {
