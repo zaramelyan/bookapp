@@ -8992,7 +8992,7 @@ p.main {
 .leselogo {
   padding: 0px 8px 6px 20px;
   height: 80px;
-
+  content
 }
 
 .sidemenu {
@@ -9000,8 +9000,7 @@ p.main {
   width: 160px;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
+
   overflow-x: hidden;
   padding-top: 50px;
 }
@@ -9013,7 +9012,7 @@ p.main {
   display: block;
   text-decoration: none;
   text-align: center;
-  align-content: center;
+  margin: auto;
 }
 
 .sidemenu a:hover {
@@ -9078,6 +9077,7 @@ p.main {
   grid-template-columns: 1fr 0.5fr 5fr 0.5fr;
   grid-template-rows: 10% 90%;
   height: 100vh;
+
 }
 
 #logo {
