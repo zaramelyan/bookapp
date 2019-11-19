@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-
+  background-color: #F8F7EF;
 }
 
 h1 {
@@ -14,12 +14,9 @@ p {
   font-size: 20px;
 }
 
-
-
 .leselogo {
   padding: 0px 8px 6px 20px;
   height: 80px;
-  content
 }
 
 .sidemenu {
@@ -27,7 +24,6 @@ p {
   width: 160px;
   position: fixed;
   z-index: 1;
-
   overflow-x: hidden;
   padding-top: 50px;
 }
