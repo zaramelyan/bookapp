@@ -1,0 +1,54 @@
+h1 {
+  font-size: 40px;
+  color: #E98074;
+}
+
+p {
+  color: #707070;
+  font-size: 20px;
+}
+
+.bok {
+  height: 313px;
+  width: 360px;
+}
+.bok.summary {
+  background-color: #707070;
+  color: #FFFFFF;
+  height: 260px;
+  width: 360px;
+}
+.bok.summary h2 {
+  font-size: 32px;
+  color: #E98074;
+}
+
+.btn {
+  width: 181px;
+  height: 43px;
+  background-color: #707070;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.btn.white {
+  border-color: #707070;
+  color: #707070;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  height: 48px;
+  width: 330px;
+}
+
+.bokforslag {
+  width: 343px;
+  height: 704px;
+}
+.bokforslag.summarybig {
+  width: 343px;
+  height: 200px;
+  background-color: #707070;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
