@@ -3537,7 +3537,7 @@ table span.badge {
 }
 
 .row .col.s12 {
-  width: 100%;
+  width: 25%;
   margin-left: auto;
   left: auto;
   right: auto;
@@ -3731,7 +3731,7 @@ table span.badge {
   }
 
   .row .col.m7 {
-    width: 58.3333333333%;
+    width: 25%;
     margin-left: auto;
     left: auto;
     right: auto;
@@ -4869,7 +4869,7 @@ small {
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: #707070;
   transition: box-shadow 0.25s;
   border-radius: 2px;
 }
@@ -5000,6 +5000,7 @@ small {
   left: 0;
   max-width: 100%;
   padding: 24px;
+  opacity: 1;
 }
 
 .card .card-content {
@@ -5033,7 +5034,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-small):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color: #FFFFFF;
   margin-right: 24px;
   transition: color 0.3s ease;
   text-transform: uppercase;
@@ -8966,6 +8967,7 @@ input[type=range]::-ms-thumb {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #F8F7EF;
 }
 
 h1 {
@@ -8974,7 +8976,7 @@ h1 {
 }
 
 p {
-  color: #707070;
+  color: #FFFFFF;
   font-size: 20px;
 }
 
