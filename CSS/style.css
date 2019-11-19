@@ -9072,7 +9072,7 @@ p.main {
 }
 
 
-.container {
+.beholder {
   display: grid;
   grid-template-columns: 1fr 0.5fr 5fr 0.5fr;
   grid-template-rows: 10% 90%;
