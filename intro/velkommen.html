@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="../SASSFOLDER/js/bin/materialize.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Biryani:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Biryani&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./materialize.css" />
+    <link rel="stylesheet" href="./intro.css" />
+    <title>Lese kompaniet</title>
+  </head>
+  <body>
+      <div class="align-height valign-wrapper">
+    <div class="container ">
+      <div class="row">
+        <div class="col m12 h1-red"><h1>Hvem er du?</h1></div>
+            <div class="row">
+                <div class="col m12">
+                    <p class="subheading">Før vi kan fortsette trenger vi å vite litt om deg.</p>
+                </div>
+            </div>
+      </div>
+      <div class="row">
+            <form class="col m8 offset-m2">
+                    <div class="row">
+                      <div class="input-field col m12">
+                        <input  id="first_name" type="text" class="validate">
+                        <label for="first_name">Navn</label>
+                      </div>
+                      <div class="input-field col m12">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Bruker Navn (ditt ønsket alias)</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col m12">
+                        <input  id="passord" type="password" class="validate">
+                        <label for="passord">Skriv in nytt passord som du ønsker å bruke</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col m12">
+                        <input id="password-gjenta" type="password" class="validate">
+                        <label for="password-gjenta">Gjenta passordet</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col m12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Din epost adresse</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                            <div class="input-field col m12">
+                                    <input id="date" type="text">
+                                    <label for="date">Din fødselsdato</label>
+                            </div>
+                          </div>
+                  </form>
+      <div class="row">
+        <div class="col m12 center-align">
+         
+            <button
+            class="btn waves-effect waves-light button-light center-align"
+            type="submit"
+            name="action"
+          >
+            Neste steg
+          </button>
+         
+        </div>
+      </div>
+    </div>
+</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('#date');
+            var instances = M.Datepicker.init(elems, {});
+        });
+    </script>
+
+  </body>
+</html>

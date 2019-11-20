@@ -1,29 +1,92 @@
-
-
 body {
-    background-color: #F8F7EF;
+  background-color: #f8f7ef;
 }
 
 #intro {
-   margin-top: 118px !important;
-   color: #E98074;
+  margin-top: 118px !important;
+  color: #e98074;
 }
 
-
 .logo h1 {
-    font-family: 'Barriecito', cursive;
-    font-size: 75px;
+  font-family: "Barriecito", cursive;
+  font-size: 75px;
 }
 
 .tagline {
-    font-family: 'Biryani', sans-serif;
-    padding-left: 70px;
-    font-size: 25px;
-    color: #707070;
-    font-weight: 100;
-    margin-bottom: 108px;
+  font-family: "Biryani", sans-serif;
+  padding-left: 70px;
+  font-size: 25px;
+  color: #707070;
+  font-weight: 100;
+  margin-bottom: 108px;
 }
 
-.ny-bruker  {
-    padding-top: 30px;
+.subheading {
+  font-family: "Biryani", sans-serif;
+  font-size: 25px;
+  color: #707070;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.ny-bruker {
+  padding-top: 30px;
+}
+
+.ny-bruker p {
+  font-size: 20px;
+}
+
+.sign-in-text {
+  font-size: 22px;
+  padding-right: 20px;
+}
+
+.input-field input {
+  background-color: #707070;
+  
+}
+
+.button-dark {
+  margin-top: 100px;
+  width: 200px;
+  background-color: #707070 !important;
+}
+
+.button-light {
+  margin-top: 100px;
+  width: 200px;
+  background-color: #fff !important;
+  color: #707070;
+}
+
+/* Font styling */
+
+h1 {
+  font-family: "Biryani";
+  color: #e98074;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #707070;
+  line-height: 1.5;
+}
+
+/* Hvem er vi styling */
+
+.align-height {
+  height: 100vh;
+}
+
+
+/* Velkommen styling */
+
+label {
+    font-size: 20px !important;
+}
+
+.modal {
+    top: 400px !important;
 }
