@@ -56,7 +56,7 @@
 /* Date Display */
 .datepicker-date-display {
   flex: 1 auto;
-  background-color: $secondary-color;
+  background-color: #e98074;
   color: #fff;
   padding: 20px 22px;
   font-weight: 500;
@@ -107,11 +107,11 @@
 
   td {
     &.is-today {
-      color: $secondary-color;
+      color: #e98074;
     }
 
-    &.is-selected {
-      background-color: $secondary-color;
+    &.is-selected { 
+  background-color: #e98074;
       color: #fff;
     }
 
@@ -156,7 +156,7 @@
 .datepicker-clear,
 .datepicker-today,
 .datepicker-done {
-  color: $secondary-color;
+  color: #e98074;
   padding: 0 1rem;
 }
 

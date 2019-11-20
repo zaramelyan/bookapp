@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="../SASSFOLDER/js/bin/materialize.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Biryani:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Biryani&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./materialize.css" />
+    <link rel="stylesheet" href="./intro.css" />
+    <title>Lese kompaniet</title>
+  </head>
+  <body>
+    <div class="align-height valign-wrapper">
+      <div class="container ">
+        <div class="row">
+          <div class="col m12 h1-red"><h1>Vekommen John</h1></div>
+          <div class="row">
+            <div class="col m12">
+              <p class="subheading">Hva liker du å lese?</p>
+            </div>
+          </div>
+          <div class="row">
+                <div class="col m12">
+                  <p>Hva liker du å lese?
+
+                        For å kunne tilpasse bokforslag til deg, 
+                        lurer vi på hvilke sjangre du liker aller best. Vennligst velg 3 stykker. Når du er ferdig, vil vi ta deg automatisk videre til neste steg.
+                        </p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll("#date");
+        var instances = M.Datepicker.init(elems, {});
+      });
+    </script>
+  </body>
+</html>
